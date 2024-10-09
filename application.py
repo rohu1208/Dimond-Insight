@@ -7,13 +7,13 @@ app = application
 
 @app.route('/')
 def home_page():
-    return render_template('template/index.html')  # Ensure this file existsy
+    return render_template('index.html')  # Ensure this file existsy
 
 
 @app.route('/predict', methods=['GET', 'POST'])
 def predict_datapoint():
     if request.method == 'GET':
-        return render_template('template/form.html')  # Render the form for prediction
+        return render_template('form.html')  # Render the form for prediction
     else:
         try:
             # Get data from the form

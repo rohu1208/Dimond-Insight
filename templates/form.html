@@ -100,7 +100,12 @@
                 },
                 body: JSON.stringify(formData)
             })
-            .then(response => response.json())
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Network response was not ok ' + response.statusText);
+                }
+                return response.json();
+            })
             .then(data => {
                 document.getElementById('result').innerHTML = 
                     `<h5>The predicted price for the diamond is: $${data.price.toFixed(2)}</h5>`;
@@ -110,6 +115,7 @@
                 document.getElementById('result').innerHTML = 
                     `<h5>Error predicting price. Please try again.</h5>`;
             });
+            
         });
     </script>
 </body>
