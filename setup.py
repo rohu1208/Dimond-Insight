@@ -1,8 +1,7 @@
 from setuptools import find_packages,setup
-from typing import List 
+from typing import List
 
-HYPEN_E_DOT='-e .' #trigger setup.py
-
+HYPEN_E_DOT='-e .'
 
 def get_requirements(file_path:str)->List[str]:
     requirements=[]
@@ -13,11 +12,15 @@ def get_requirements(file_path:str)->List[str]:
         if HYPEN_E_DOT in requirements:
             requirements.remove(HYPEN_E_DOT)
         return requirements
+
+
+
 setup(
-    name='DiamondPricePrediction',
+    name='DiamondPriceprediction',
     version='0.0.1',
-    author='rohan kaitake',
-    authon_email='rohankaitake5@gmail.com',
-    install_requires=get_requirements("requirements.txt"),
+    author='Pwskills',
+    author_email="example@gmail.com",
+    install_requires=get_requirements('requirements.txt'),
     packages=find_packages()
+
 )
