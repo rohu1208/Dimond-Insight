@@ -29,6 +29,9 @@
 - Machine learning model trained with real-world data.
 ## Architecture
 
+![WhatsApp Image 2024-10-10 at 20 22 16_888269e7](https://github.com/user-attachments/assets/551afe18-886e-4d9a-afdb-4408be293279)
+
+
 The architecture of the Diamond Insight project consists of the following components:
 
 1. **Data Ingestion**: 
@@ -105,6 +108,12 @@ python app2.py
 ```
 http://127.0.0.1:5000/predict
 ```
+# preview 
+
+![WhatsApp Image 2024-10-10 at 19 24 51_fde36956](https://github.com/user-attachments/assets/c096abf7-075e-4ac5-aeb6-aadf2b8e4032)
+
+
+
 # Model Evaluation
 To evaluate the model's performance, you can use various metrics. Here’s how to calculate Mean -------Absolute Error (MAE) and R-squared:
 Interpretation of Results
@@ -124,4 +133,5 @@ For any inquiries, please reach out to:
 
 # ⚠️ Ignore application.py file
 ``` application.py```
+
 
