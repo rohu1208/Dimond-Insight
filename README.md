@@ -118,6 +118,6 @@ This project is licensed under the MIT License. See the LICENSE file for more de
 # Contact
 For any inquiries, please reach out to:
 
-author - Rohan Kaitake
-Your Name - rohan0070k@gmail.com
-GitHub: https://github.com/rohu1208
+- author - Rohan Kaitake
+-mail_id - rohan0070k@gmail.com
+- GitHub: https://github.com/rohu1208
