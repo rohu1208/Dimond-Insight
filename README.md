@@ -1,4 +1,4 @@
-# ** 💎 Diamond Insight 💎 - Diamond Price Prediction**
+#  💎 Diamond Insight 💎 - Diamond Price Prediction
 
 **Diamond Insight** is a machine learning project to predict diamond prices based on key features such as carat, cut, color, and clarity. This predictive model improves price estimation accuracy, supporting businesses in making data-driven decisions.
 
