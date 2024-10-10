@@ -11,6 +11,11 @@ Follow the steps below to set up and run the project.
 Step 1: Clone the Repository
 First, clone this repository to your local machine:
 
+1. git clone https://github.com/rohu1208/Dimond-Insight
+   cd Dimond-Insight
+
+
+
 bash
 Copy code
 git clone https://github.com/rohu1208/Dimond-Insight
