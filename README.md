@@ -119,5 +119,9 @@ This project is licensed under the MIT License. See the LICENSE file for more de
 For any inquiries, please reach out to:
 
 - author - Rohan Kaitake
--mail_id - rohan0070k@gmail.com
+- mail_id - rohan0070k@gmail.com
 - GitHub: https://github.com/rohu1208
+
+# ⚠️ Ignore application.py file
+``` application.py```
+
