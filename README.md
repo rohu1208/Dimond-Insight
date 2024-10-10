@@ -25,12 +25,6 @@ This project utilizes machine learning algorithms to build a model capable of pr
 - [Future Work](#future-work)
 - [License](#license)
 
-## Installation
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/diamond-insight.git
-   cd diamond-insight
 
 
 # Model Building
